@@ -1,1 +1,3 @@
 # Inventory-Program-CPP
+
+This menu driven program extracts the files from an inventory file. It has a isValid function to determine if the entries are valid. If the entry is valid it is displayed, but if the entry is invalid it is stored in a error file. The program also as a feature that prints the error files with invalid entries. The inventory is searchable. It can be sorted by name, ID, Price, and Quantity. The data structure used to store data in this program is a simple array of objects. An array of pointers is used to sort the inventory. The program makes use of ifstream, strings, array of objects, array of pointers, and switch statements. 
